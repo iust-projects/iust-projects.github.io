@@ -1,5 +1,5 @@
 ---
-Title: Nikan
+title: Nikan
 ---
 
 I am a master degree student of computer engineering at the Iran University of Science and Technology.
