@@ -1,0 +1,11 @@
+- title: Home
+  page: index
+
+- title: Members
+  page: members
+
+- title: FAQ
+  page: faq
+
+- title: Contact
+  page: contact
