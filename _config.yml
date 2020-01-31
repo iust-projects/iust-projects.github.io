@@ -43,7 +43,7 @@ defaults:
   - scope:
       path: "member"
     values:
-      layout: page
+      layout: member
       
 # Syntax
 markdown: kramdown

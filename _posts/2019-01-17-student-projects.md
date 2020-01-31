@@ -18,4 +18,4 @@ IUST Projects has an open membership policy. We will be so glad to have you here
 
 We do support any type of projects in this oraganization. No matter is it related to Artificial Intelligence, Cloud Computing, Hardware and IoT, Data Science, Big Data, Network, Compilers, Software Engineering, Performance Modeling, NLP, etc.
 
-**We love your projects.**
+**Community loves your projects.**

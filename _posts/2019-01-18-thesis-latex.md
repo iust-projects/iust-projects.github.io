@@ -6,10 +6,10 @@ categories: [ projects ]
 image: assets/images/projects/latex.svg
 ---
 
-# What is LaTeX
+### What is LaTeX?
 
-DescriptionLaTeX is a document preparation system. When writing, the writer uses plain text as opposed to the formatted text found in WYSIWYG word processors like Microsoft Word, LibreOffice Writer and Apple Pages. Read more [here](https://www.latex-project.org/).
+LaTeX is a document preparation system. When writing, the writer uses plain text as opposed to the formatted text found in WYSIWYG word processors like Microsoft Word, LibreOffice Writer and Apple Pages. Read more [here](https://www.latex-project.org/).
 
-# Project
+### The Project
 
-Use premade template at [Master Thesis Template Project](https://github.com/iust-projects/master-thesis-template).
+Use ready-made template at [Master Thesis Template Project](https://github.com/iust-projects/master-thesis-template).

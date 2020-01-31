@@ -5,9 +5,12 @@ permalink: "/faq"
 comments: true
 ---
 
-If you have any questions that are not listed below, please ask in comments.
+<div class="alert alert-success" role="alert">
+  If you have any questions that are not listed below, please ask in comments.
+</div>
 
-#### Can I join this organization?
 
-Yes, joining this organization is open, even if you are not a student of IUST.
+#### Q: Can I join this organization?
+
+A: Yes, joining this organization is open, even if you are not a student of IUST.
 

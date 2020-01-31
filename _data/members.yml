@@ -1,17 +1,20 @@
 aryan:
+  id:             aryan
   name:           Aryan
+  fullname:       Aryan Ebrahimpour
+  birth:          22 Dec 1997
   site:           https://www.aryan.software
   avatar:         aryan.jpg
-  bio:            "Hi, I am Aryan!"
-  page:           aryan
+  bio:            "Hi, I am Aryan, a technology enthusiast!"
   email:          Oxaryan@outlook.com
   github:         0xaryan
 
 nikan:
+  id:             nikan
   name:           Nikan
+  fullname:       Nikan Doosti
   site:           http://nikronic.github.io
   avatar:         nikan.jpg
   bio:            "AI Lover!"
-  page:           nikan
   email:          nikan.doosti@outlook.com
   github:         Nikronic

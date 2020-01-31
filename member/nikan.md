@@ -2,6 +2,8 @@
 title: Nikan
 ---
 
+### About Nikan
+
 I am a master degree student of computer engineering at the Iran University of Science and Technology.
 I started my career in AI by studying about Evolutionary Algorithms, like Genetics and I have implemented a paper about using genetics to optimize Multi-Depot Vehicle Routing Problem.
 Then, I started learning about machine learning and deep learning on my own through self-study using online videos from different universities. And now I am researching about my ideas.

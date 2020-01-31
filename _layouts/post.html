@@ -114,7 +114,7 @@ layout: default
                         {% endif %} 
 					</div>
 					<div class="col-md-10">		
-                        <h5 class="font-weight-bold">Written by {{ author.name }} {% if author.github %}<span><a target="_blank" href="https://github.com/{{ author.github }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
+                        <h5 class="font-weight-bold">Written by {{ author.name }} <span><a href="/member/{{author.id}}" class="btn btn-outline-success btn-sm btn-round ml-2">View Bio</a></span> {% if author.github %}<span><a target="_blank" href="https://github.com/{{ author.github }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
 						{{ author.bio }}					
 					</div>
 				</div>				

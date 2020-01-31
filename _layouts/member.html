@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+{% assign username = page.path | replace: "member/", "" | replace: ".md", "" %}
+{% assign member = site.data.members[username] %}
+
+<div class="container">
+<h3 class="font-weight-bold spanborder"><span>Member: {{page.title}}</span></h3>
+<div class="page-content">
+    <div class="row">
+        <div class="col-md-8">
+            <ul>
+                <li><b>Name:</b> {{member.fullname}}</li>
+                {% if member.birth %} <li><b>Age:</b> <span id="year-of-birth"></span> years old (as of <span id="now"></span>)</li> {% endif %}
+                <li><b>Website:</b> <a href="{{member.site}}" target="_blank">{{member.site}}</a></li>
+                <li><b>Bio:</b> {{member.bio}}</li>
+                <li><b>Email:</b> {{member.email}}</li>
+                <li><b>GitHub Profile:</b> <a target="_blank" href="https://github.com/{{member.github}}">{{member.github}}</a></li>
+            </ul>
+        </div>
+        <div class="col-md 4">
+            <img class="rounded" src="/assets/images/members/{{member.avatar}}" />
+        </div>
+    </div>
+    <br>
+{{ content }}
+<!-- Comments -->
+{% if page.comments == true %}
+{% include comments.html %}
+{% endif %}
+</div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+     const birthday = new Date("{{ member.birth }}");
+     const ageDifMs = Date.now() - birthday.getTime();
+     const ageDate = new Date(ageDifMs);
+     const result =  Math.abs(ageDate.getUTCFullYear() - 1970);
+     document.getElementById("year-of-birth").innerHTML = result;
+     const months=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+     const now = new Date(Date.now());
+     const d = now.getDate();
+     const m = months[now.getMonth()];
+     const y = now.getFullYear();
+     document.getElementById("now").innerHTML = `${d} ${m} ${y}`});
+</script>
