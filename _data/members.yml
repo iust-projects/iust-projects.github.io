@@ -12,7 +12,8 @@ aryan:
 nikan:
   id:             nikan
   name:           Nikan
-  fullname:       Nikan Doosti
+  fullname:       Nikan Doosti Lakhani
+  birth:          26 Nov 1996
   site:           http://nikronic.github.io
   avatar:         nikan.jpg
   bio:            "AI Lover!"
