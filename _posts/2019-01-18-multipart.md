@@ -8,7 +8,9 @@ image: assets/images/projects/multipart/scr.jpg
 
 # MultiPart Downloader
 
-This is a sample socket proramming project which serves a file in server, and client can ask server to chunk the files and serve each part separately.
+Today we want to introduce a sample socket proramming project which serves a file in server, and client can ask server to chunk the files and serve each part separately.
+
+<a class="btn btn-success" href="https://github.com/iust-projects/multipart-downloader">View Project</a>
 
 ### How does it work?
 
@@ -24,10 +26,10 @@ This is a sample socket proramming project which serves a file in server, and cl
 
 ## Build and Run
 
-First clone this repo
+First clone the repo
 
 ```bash
-git clone https://github.com/0xaryan/multipart-downloader
+git clone https://github.com/iust-projects/multipart-downloader
 ```
 
 Then use dotnet cli commands
@@ -41,3 +43,5 @@ cd ..\client
 dotnet build
 dotnet run
 ```
+
+Enjoy!
