@@ -1,0 +1,11 @@
+.question {
+    margin: 0 0 20px 0;
+}
+
+.question a {
+    display: block;
+}
+
+.question a:before {
+    content: '❓ ';
+}

@@ -5,6 +5,14 @@ permalink: "/faq"
 comments: true
 ---
 
+<div class="question">
+<a href="#q-what-is-iust-projects">What is 'IUST Projects'?</a>
+<a href="#q-who-created-this-organization">Who created this organization?</a>
+<a href="#q-is-this-an-official-iust-website">Is this an official IUST website?</a>
+<a href="#q-can-i-join-this-organization">Can I join this organization?</a>
+<a href="#q-i-am-a-member-of-organization-however-i-am-not-in-the-websites-members-page-why">I am a member of organization, however I am not in the website's members page. Why?</a>
+</div>
+
 <div class="alert alert-success" role="alert">
   If you have any questions that are not listed below, please ask in comments.
 </div>
