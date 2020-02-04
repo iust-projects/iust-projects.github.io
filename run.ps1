@@ -1,1 +1,1 @@
-bundle exec jekyll serve --watch --port 4001
+bundle exec jekyll serve --watch --port 12714 --trace
