@@ -14,7 +14,11 @@ layout: default
                 <li><b>Name:</b> {{member.fullname}}</li>
                 {% if member.birth %} <li><b>Age:</b> <span id="year-of-birth"></span> years old (as of <span id="now"></span>)</li> {% endif %}
                 <li><b>Website:</b> <a href="{{member.site}}" target="_blank">{{member.site}}</a></li>
-                <li><b>Bio:</b> {{member.bio}}</li>
+                {% if member.bio %}
+                    <li><b>Bio:</b> {{member.bio}}</li>
+                {% else %}
+                    <li><b>Bio:</b> <i class="text-muted">no information provided</i></li>
+                {% endif %}
                 <li><b>Email:</b> {{member.email}}</li>
                 <li><b>GitHub Profile:</b> <a target="_blank" href="https://github.com/{{member.github}}">{{member.github}}</a></li>
             </ul>

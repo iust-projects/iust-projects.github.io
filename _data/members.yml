@@ -23,10 +23,32 @@ nikan:
 erfan:
   id:             erfan
   name:           Erfan
-  fullname:       Miahi
+  fullname:       Erfan Miahi
   birth:          30 Apr 1997
   site:           https://erfanmhi.github.io/
   avatar:         erfan.png
   bio:            "Lover!"
   email:          mhi.erfan1@gmail.com
   github:         ErfanMhi
+
+ahmad:
+  id:             ahmad
+  name:           Ahmad
+  fullname:       Ahmad Fazeli
+  birth:          
+  site:           https://github.com/ahmadfaazeli
+  avatar:         ahmad.jpg
+  bio:            
+  email:          faazeli.ahmad@gmail.com
+  github:         ahmadfaazeli
+
+amirhossein:
+  id:             amirhossein
+  name:           Amir Hossein
+  fullname:       Amir Hossein Sorouri
+  birth:          
+  site:           https://github.com/Amirsorouri00
+  avatar:         amirhossein.jpg
+  bio:            
+  email:          amirsorouri26@gmail.com
+  github:         Amirsorouri00
