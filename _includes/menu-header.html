@@ -2,6 +2,10 @@
 
 {% for item in site.data.menu %}
 <li class="nav-item">
+    {% if item.link %}
+    <a {% if item.newtab %} target="_blank" {% endif %} class="nav-link" href="{{ item.link }}">{{item.title}}</a>
+    {% else %}
     <a {% if item.newtab %} target="_blank" {% endif %} class="nav-link" href="{{site.baseurl}}/{{item.page}}.html">{{item.title}}</a>
+    {% endif %}
 </li>
 {% endfor %}
