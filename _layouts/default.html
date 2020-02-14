@@ -26,6 +26,8 @@
     <!-- Theme Stylesheet -->
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/org.css">
 
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/github-syntax.css">
+
     <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -90,6 +92,10 @@
         </div>
         </div>
     </footer>
+
+    <script>
+        document.querySelectorAll("table").forEach(x => x.classList.add("table", "table-striped"))
+    </script>
 
     {% include tracking-footer.html %}
 
