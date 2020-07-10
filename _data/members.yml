@@ -63,3 +63,14 @@ soroush:
   bio:            
   email:          soroushjavdan@gmail.com
   github:         soroushjavdan
+
+morteza:
+  id:             morteza
+  name:           Morteza
+  fullname:       Morteza ZAKERI
+  birth:          10 March 
+  site:           http://webpages.iust.ac.ir/morteza_zakeri/
+  avatar:         morteza.jpg
+  bio:            "Software engineer"
+  email:          Oxaryan@outlook.com
+  github:         m-zakeri
