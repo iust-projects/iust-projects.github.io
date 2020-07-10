@@ -63,3 +63,14 @@ soroush:
   bio:            
   email:          soroushjavdan@gmail.com
   github:         soroushjavdan
+
+morteza:
+  id:             morteza
+  name:           Morteza
+  fullname:       Morteza Zakeri
+  birth:          
+  site:           https://m-zakeri.ir
+  avatar:         mojtabaz.jpeg
+  bio:            
+  email:          m-zakeri@live.com
+  github:         m-zakeri
